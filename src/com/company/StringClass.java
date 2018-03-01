@@ -18,7 +18,7 @@ public class StringClass {
 
        //  calculating  index last to one
          int i3=s1.lastIndexOf("e");
-         System.out.println("index of m is :"+i3);
+        System.out.println("index of m is :"+i3);
 
         //  calculating  start 5 index last to one
         int i4=s1.lastIndexOf("e",5);
@@ -70,6 +70,14 @@ public class StringClass {
         else
             System.out.println("Dictionary order");
 
+        /* subString
+        (1) subStrind()
+         */
 
+        String str3 = s1.substring(4);
+        System.out.println(str3);
+
+        String str4 = s1.substring(2,4);
+        System.out.println(str4);
     }
 }
