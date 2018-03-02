@@ -18,7 +18,7 @@ public class Main {
 
         }
     }
-        static class  B implements Runnable{
+        static class  B implements Runnable {
             public void run(){
                 int i;
                 for (i=0;i<=10;i++)
