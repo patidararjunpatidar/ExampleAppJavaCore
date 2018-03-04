@@ -8,7 +8,6 @@ public class ThreadObject {
       o1.start();
       o2.start();
 
-
     }
     static class A extends Thread{
 
