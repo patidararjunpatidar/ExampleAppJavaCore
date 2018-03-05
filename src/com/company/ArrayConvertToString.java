@@ -11,7 +11,6 @@ public class ArrayConvertToString {
         //Call Arrays.toString to display the elements.
 
         System.out.println(Arrays.toString(arrays));
-
     }
 
 }
