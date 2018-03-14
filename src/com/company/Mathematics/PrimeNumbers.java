@@ -1,4 +1,4 @@
-package com.company;
+package com.company.Mathematics;
 
 import java.util.Scanner;
 
@@ -21,7 +21,7 @@ public class PrimeNumbers {
                  }
              }
              if (counter==2){
-                 System.out.println(i+"is a prime number");
+                 System.out.println(i+" : is a prime number");
              }
          }
     }

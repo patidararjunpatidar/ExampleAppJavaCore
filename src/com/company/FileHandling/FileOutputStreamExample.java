@@ -8,10 +8,11 @@ public class FileOutputStreamExample {
         int i;
         try{
         FileOutputStream out = new FileOutputStream("./myfile.txt", true);
-        String s = "TATA";
+        String s = "TATA ";
         char ch[] = s.toCharArray();
         for (i =0; i <= s.length(); i++) {
             out.write(ch[i]);
+            System.out.println("");
         }
         }catch (ArrayIndexOutOfBoundsException e1) {
             e1.fillInStackTrace();

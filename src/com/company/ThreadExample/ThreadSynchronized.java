@@ -1,7 +1,5 @@
 package com.company.ThreadExample;
 
-
-
 import java.util.*;
 
 public class ThreadSynchronized {
