@@ -1,4 +1,4 @@
-package com.company;
+package com.company.ThreadExample;
 
 public class Main {
 
@@ -9,7 +9,7 @@ public class Main {
 	t1.start();
 	t2.start();
     }
-    static class  A implements Runnable {
+    static class  A implements Runnable{
         public void run() {
             int i;
             for (i = 0; i <= 10; i++) {

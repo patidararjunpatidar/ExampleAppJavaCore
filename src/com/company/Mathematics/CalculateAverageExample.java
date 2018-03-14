@@ -1,4 +1,4 @@
-package com.company;
+package com.company.Mathematics;
 
 public class CalculateAverageExample {
 
@@ -6,7 +6,7 @@ public class CalculateAverageExample {
 
         //define a Array and initialize with values
 
-        int[] numbers = new int[]{22,20,41,55,16,60,100};
+        int[] numbers = new int[]{22,20,41,55,16,60,110};
 
         /* Average value of array elements world be
             Sum of all elements/tools number of elements

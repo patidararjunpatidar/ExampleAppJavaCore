@@ -1,4 +1,4 @@
-package com.company;
+package com.company.ThreadExample;
 
 public class ThreadObject {
     public static  void main(String[]args){
